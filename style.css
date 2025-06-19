@@ -1,0 +1,391 @@
+body {
+  background-color: #fff0f6;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-custom {
+  background: linear-gradient(to right, #ffe4ec, #ffd6f7);
+  box-shadow: 0 5px 20px rgba(255, 182, 193, 0.4);
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #e5509a !important;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #d63384;
+}
+
+.nav-link {
+  color: #c2185b !important;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+.navbar-brand {
+  scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+  background-color: #ff4d94;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link li a {
+  scroll-behavior: smooth;
+}
+.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(214,51,132, 1)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fff0f6;
+}
+
+.home-girl {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #ffe4f0 0%, #ffd6ec 100%);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 200px 20px;
+
+}
+
+.home-girl::before {
+  content: "";
+  background: url("https://i.ibb.co/zF60pjf/pink-waves.png") no-repeat center
+    bottom;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  pointer-events: none;
+  
+}
+
+.home-inner {
+  z-index: 0;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 80px 30px;
+  box-shadow: 0 12px 35px rgba(255, 105, 180, 0.3);
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ff4d94;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: #6d2942;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  background-color: #e91e63;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2.2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.about-section {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-card {
+  background-color: #ffe6f0;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4);
+}
+
+.about-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #333;
+}
+.circle-image {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ef4e9e;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #6e1a3a;
+  line-height: 1.7;
+}
+
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.btn-pink:hover {
+  background-color: #e91e63;
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .btn-pink {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+body {
+  background-color: #fff0f6;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.education-section {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+
+.edu-card {
+  border: none;
+  border-radius: 20px;
+  background: #ffe4ec;
+  box-shadow: 0 8px 30px rgba(255, 192, 203, 0.3);
+  transition: transform 0.3s ease;
+}
+
+/* .edu-card:hover {
+  transform: translateY(-8px); 
+}*/
+
+.edu-icon {
+  font-size: 2.5rem;
+  color: #d63384;
+}
+
+.card-title {
+  color: #b03060;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fff1f9, #ffe6fa);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.skills-section {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.section-title {
+  font-size: 2.8rem;
+  text-align: center;
+  color: #e91e63;
+  font-weight: bold;
+  text-shadow: 1px 1px #ffc0cb;
+  margin-bottom: 50px;
+}
+
+.skill-bubble {
+  background: #ffe0f0;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(255, 182, 193, 0.3);
+  transition: all 0.3s ease;
+}
+
+.skill-bubble:hover {
+  transform: scale(1.05);
+  background-color: #ffcce5;
+}
+
+.skill-icon {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #d63384;
+}
+
+.skill-title {
+  font-weight: 600;
+  color: #b03060;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.skill-desc {
+  font-size: 0.9rem;
+  color: #6e1a3a;
+}
+
+.bubble-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.hobby-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ffe4ec, #e0f7fa);
+  align-items: center;
+  display: flex;
+}
+
+.hobby-title {
+  font-weight: 700;
+  color: #d63384;
+}
+
+.hobby-card {
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.hobby-card:hover {
+  transform: translateY(-8px);
+}
+
+.hobby-icon {
+  font-size: 45px;
+  color: #ff69b4;
+  margin-bottom: 15px;
+}
+
+.hobby-card h5 {
+  font-weight: bold;
+  color: #5e35b1;
+}
+
+.hobby-card p {
+  color: #555;
+  font-size: 15px;
+}
+
+.contact-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ffe6f0, #e0f7fa);
+  border-top: 2px solid pink;
+  display: flex;
+  align-items: center;
+}
+
+.contact-title {
+  font-weight: 700;
+  color: #d63384;
+}
+
+.form-control,
+.form-control:focus {
+  border-radius: 10px;
+  box-shadow: none;
+  border-color: #ff8fab;
+}
+.col-md-8 col-lg-6 {
+  text-decoration: none;
+}
+
+.btn-send {
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-send:hover {
+  background-color: #ff4b91;
+}
+
+.contact-info {
+  color: #ff69b4 font-size 15px;
+}
+.fa-instagram {
+  color: #d63384;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-linkedin {
+  color: blue;
+}
+.text-center mt-4 contact-info {
+  font-size: 32%;
+}
